@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Partacount</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Dues">Dues</string>
+    <string name="new_due">New Due</string>
+    <string name="button_new">NEW</string>
+    <string name="new_group">New Group</string>
+    <string name="name_group">Name of Group</string>
+    <string name="name_bill">Name of Bill</string>
+    <string name="new_member">New Member</string>
+    <string name="new_bill">New Bill</string>
+    <string name="nb_member">Nº of Members</string>
+    <string name="current">Current</string>
+    <string name="subtitle1">Members</string>
+    <string name="button_save">SAVE</string>
+    <string name="title_activity_group">Group</string>
+    <string name="title_section1">Bills</string>
+    <string name="title_section2">Members</string>
+    <string name="title_section3">Add Members</string>
+    <string name="bill_value">Value</string>
+    <string name="who_paid">Who Paid</string>
+    <string name="who_in">Who is In</string>
+
+</resources>
