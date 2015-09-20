@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:windowSoftInputMode="adjustResize">
+
+    <TextView
+        android:id="@+id/Btitle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#F000BB33"
+        android:gravity="center"
+        android:text="@string/new_bill"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/Brow_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Btitle"
+        android:layout_toRightOf="@+id/BtextView1"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/new_bill" />
+
+    <TextView
+        android:id="@+id/BtextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Brow_title"
+        android:layout_alignBottom="@+id/Brow_title"
+        android:layout_alignParentLeft="true"
+        android:text="@string/name_bill"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/BtextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Brow_title"
+        android:layout_marginTop="15dp"
+        android:text="@string/bill_value"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/Bcurrent"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/BtextView3"
+        android:layout_alignBottom="@+id/BtextView3"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/BtextView1"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="$"
+        android:inputType="numberDecimal|numberSigned" >
+
+    </EditText>
+
+        <ListView
+            android:id="@+id/BlistView1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_above="@+id/Bbutton_save"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/Bsubtitle" />
+
+        <Button
+            android:id="@+id/Bbutton_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/button_save" />
+
+        <TextView
+            android:id="@+id/BTextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/BtextView3"
+            android:layout_marginTop="15dp"
+            android:text="@string/who_paid"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/Bspinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/BTextView02"
+            android:layout_toRightOf="@+id/BtextView1" />
+
+        <TextView
+            android:id="@+id/Bsubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/Bspinner1"
+            android:background="#F000BB33"
+            android:gravity="center"
+            android:text="@string/who_in"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+</RelativeLayout><!-- From: file:/home/arthur/StudioProjects/Partacount1/app/src/main/res/layout/dialog_newbill.xml -->

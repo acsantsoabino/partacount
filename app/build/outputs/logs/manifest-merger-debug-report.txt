@@ -1,0 +1,79 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:2:1-44:12
+	xmlns:android
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:11:5-42:19
+	android:label
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:15:9-41
+	android:allowBackup
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:14:9-45
+	android:theme
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:16:9-40
+	android:allowClearUserData
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:13:9-42
+activity#com.example.partacount.MainActivity
+ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:18:9-27:20
+	android:screenOrientation
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:21:13-49
+	android:label
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:19:13-63
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:25:27-74
+activity#com.example.partacount.DueList
+ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:28:9-32:20
+	android:screenOrientation
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:31:4-40
+	android:label
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:30:13-45
+	android:name
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:29:13-58
+activity#com.example.partacount.GroupActivity
+ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:33:9-41:20
+	android:screenOrientation
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:37:4-40
+	android:label
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:35:13-57
+	android:parentActivityName
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:36:13-66
+	android:name
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:34:13-64
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:38:13-40:60
+	android:name
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:39:17-63
+	android:value
+		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:40:17-57
