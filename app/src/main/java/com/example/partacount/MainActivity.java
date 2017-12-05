@@ -1,14 +1,3 @@
-/*******************************************************************************
-
- @file			MainActivity.java
- @abstract		Définition de la classe MainActivity pour gérer l'activité 
- 				d'accueil
- @author		SANTOS Arthur
- @author		COLLIOT Kévin
- @version		1.0
-
-*******************************************************************************/
-
 package com.example.partacount;
 
 //IMPORTS
@@ -44,20 +33,14 @@ public class MainActivity extends Activity implements MyDialogFragment.NoticeDia
 	private static final int ID_DIALOG_ALERTDELET = 0;	// variable de dialogue informant de la suppression d'un groupe de la liste
 	private DataDbHelper db;							// base de données
 
-	//METHODES
-	/*******************************************************************************
-	 @function		onCreate
-	 @abstract		Méthode pour créer l'activité d'acceuil
-	 @param			Bundle savedInstanceState ?????
-	*******************************************************************************/
     @Override
-    protected void onCreate(Bundle savedInstanceState) {	
+    protected void onCreate(Bundle savedInstanceState) {
     	
     	int i;	// variable de création de boucle
     	
     	// ?????
-        super.onCreate(savedInstanceState);	
-         setContentView(R.layout.activity_main);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
         
         // initialisation des Attributs
         mGroups = new ArrayList<Group>();

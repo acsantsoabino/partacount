@@ -5,16 +5,18 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="11"
-        android:targetSdkVersion="18" />
+        android:minSdkVersion="17"
+        android:targetSdkVersion="26" />
 
     <application
         android:allowBackup="true"
         android:allowClearUserData="true"
-        android:icon="@drawable/ic_launcher"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-         >
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light" >
         <activity
             android:name="com.example.partacount.MainActivity"
             android:label="@string/app_name"
@@ -28,8 +30,7 @@
         <activity
             android:name="com.example.partacount.DueList"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.example.partacount.GroupActivity"
             android:label="@string/title_activity_group"
@@ -39,6 +40,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="android.app.ListActivity" />
         </activity>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

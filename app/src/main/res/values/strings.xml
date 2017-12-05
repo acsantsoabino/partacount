@@ -23,5 +23,7 @@
     <string name="bill_value">Value</string>
     <string name="who_paid">Who Paid</string>
     <string name="who_in">Who is In</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 
 </resources>

@@ -14,25 +14,29 @@ package com.example.partacount;
 import java.util.ArrayList;
 import java.util.Locale;
 
-import android.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.ActionBar;
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.app.FragmentTransaction;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.os.Bundle;
+import android.support.v4.app.FragmentTransaction;
+
+
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.os.Bundle;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
+
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
@@ -42,7 +46,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class GroupActivity extends FragmentActivity implements
+public class GroupActivity extends AppCompatActivity implements
 		ActionBar.TabListener, MyDialogFragment.NoticeDialogListener {
 
 	/**
@@ -83,9 +87,11 @@ public class GroupActivity extends FragmentActivity implements
 	 @abstract		Méthode pour creer l'activité
 	 @param			Bundle savedInstanceState
 	*******************************************************************************/
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		
+        final ActionBar actionBar = getSupportActionBar();
+
 		super.onCreate(savedInstanceState);
 		
 		setContentView(R.layout.activity_group);
@@ -98,9 +104,6 @@ public class GroupActivity extends FragmentActivity implements
     	group = db.getGroup(id);
 		// Set up the title.
     	this.setTitle(group.getNameGp());
-		// Set up the action bar.
-		final ActionBar actionBar = getActionBar();
-		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
 		// Create the adapter that will return a fragment for each of the three
 		// primary sections of the app.
@@ -111,14 +114,19 @@ public class GroupActivity extends FragmentActivity implements
 		mViewPager = (ViewPager) findViewById(R.id.pager);
 		mViewPager.setAdapter(mSectionsPagerAdapter);
 
+		// Set up the action bar.
+		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+
 		// When swiping between different sections, select the corresponding
 		// tab. We can also use ActionBar.Tab#select() to do this if we have
 		// a reference to the Tab.
-		mViewPager
-				.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+		mViewPager.setOnPageChangeListener(
+		        new ViewPager.SimpleOnPageChangeListener() {
 					@Override
 					public void onPageSelected(int position) {
-						actionBar.setSelectedNavigationItem(position);
+                        // When swiping between pages, select the
+                        // corresponding tab.
+					    actionBar.setSelectedNavigationItem(position);
 					}
 				});
 

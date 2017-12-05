@@ -1,79 +1,187 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:2:1-44:12
-	xmlns:android
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:2:11-69
+ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/198d82892790e1d88551ddd845d7dd62/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/arthur/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1c62de61a4a4531fca923239735699b1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v13:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/e5ad3c4f6e008545756ed19422631ce4/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/822a350df682a1383f3eec817a4a591f/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/7c673dd53788ffa0db82b8697317280f/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e604ae4d58022d0faf24e1c7b774e03e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/520eb5d5ee79dd5be9b1373b555bb4d7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1a188a5d8c8217476cf4b4446cb6ffd3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d125a40c22e1c06589c85d11da15896a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c654a5c15ed1eb8a5a734291ba6afbcc/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4b2930d1185f760aa46841e6e0f7c6c0/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/399570119a527224f2f077202deff1b1/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:2:1-39:12
 	package
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:3:5-37
-		INJECTED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml
+		INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml
-uses-sdk
-ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:7:5-9:41
-	android:targetSdkVersion
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:9:9-38
-		INJECTED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml
-	android:minSdkVersion
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:8:9-35
-		INJECTED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:11:5-42:19
+ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:5:5-37:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/198d82892790e1d88551ddd845d7dd62/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/198d82892790e1d88551ddd845d7dd62/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/arthur/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1c62de61a4a4531fca923239735699b1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/arthur/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1c62de61a4a4531fca923239735699b1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v13:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/e5ad3c4f6e008545756ed19422631ce4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v13:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/e5ad3c4f6e008545756ed19422631ce4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/822a350df682a1383f3eec817a4a591f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/822a350df682a1383f3eec817a4a591f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/7c673dd53788ffa0db82b8697317280f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/7c673dd53788ffa0db82b8697317280f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e604ae4d58022d0faf24e1c7b774e03e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e604ae4d58022d0faf24e1c7b774e03e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/520eb5d5ee79dd5be9b1373b555bb4d7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/520eb5d5ee79dd5be9b1373b555bb4d7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1a188a5d8c8217476cf4b4446cb6ffd3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1a188a5d8c8217476cf4b4446cb6ffd3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d125a40c22e1c06589c85d11da15896a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d125a40c22e1c06589c85d11da15896a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c654a5c15ed1eb8a5a734291ba6afbcc/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c654a5c15ed1eb8a5a734291ba6afbcc/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4b2930d1185f760aa46841e6e0f7c6c0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4b2930d1185f760aa46841e6e0f7c6c0/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/399570119a527224f2f077202deff1b1/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/399570119a527224f2f077202deff1b1/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:15:9-41
-	android:allowBackup
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:12:9-35
-	android:icon
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:14:9-45
-	android:theme
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:9:9-41
 	android:allowClearUserData
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:13:9-42
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:7:9-42
+	android:roundIcon
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:12:9-53
 activity#com.example.partacount.MainActivity
-ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:18:9-27:20
+ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:14:9-23:20
 	android:screenOrientation
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:21:13-49
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:17:13-49
 	android:label
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:20:13-45
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:16:13-45
 	android:name
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:19:13-63
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:15:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:22:13-26:29
+ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:23:17-69
+ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:21:27-74
 activity#com.example.partacount.DueList
-ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:28:9-32:20
+ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:24:9-27:52
 	android:screenOrientation
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:31:4-40
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:27:13-49
 	android:label
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:30:13-45
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:26:13-45
 	android:name
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:29:13-58
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:25:13-36
 activity#com.example.partacount.GroupActivity
-ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:33:9-41:20
+ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:28:9-36:20
 	android:screenOrientation
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:37:4-40
-	android:label
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:35:13-57
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:32:13-49
 	android:parentActivityName
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:36:13-66
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:31:13-66
+	android:label
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:30:13-57
 	android:name
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:34:13-64
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:29:13-42
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:38:13-40:60
-	android:name
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:39:17-63
+ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:33:13-35:60
 	android:value
-		ADDED from /home/arthur/StudioProjects/Partacount1/app/src/main/AndroidManifest.xml:40:17-57
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:35:17-57
+	android:name
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml:34:17-63
+uses-sdk
+INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml
+INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/198d82892790e1d88551ddd845d7dd62/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/198d82892790e1d88551ddd845d7dd62/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/arthur/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1c62de61a4a4531fca923239735699b1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/arthur/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1c62de61a4a4531fca923239735699b1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v13:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/e5ad3c4f6e008545756ed19422631ce4/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:support-v13:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/e5ad3c4f6e008545756ed19422631ce4/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/822a350df682a1383f3eec817a4a591f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/822a350df682a1383f3eec817a4a591f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/7c673dd53788ffa0db82b8697317280f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/7c673dd53788ffa0db82b8697317280f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e604ae4d58022d0faf24e1c7b774e03e/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e604ae4d58022d0faf24e1c7b774e03e/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/520eb5d5ee79dd5be9b1373b555bb4d7/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/520eb5d5ee79dd5be9b1373b555bb4d7/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1a188a5d8c8217476cf4b4446cb6ffd3/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1a188a5d8c8217476cf4b4446cb6ffd3/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d125a40c22e1c06589c85d11da15896a/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d125a40c22e1c06589c85d11da15896a/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c654a5c15ed1eb8a5a734291ba6afbcc/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c654a5c15ed1eb8a5a734291ba6afbcc/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4b2930d1185f760aa46841e6e0f7c6c0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4b2930d1185f760aa46841e6e0f7c6c0/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/399570119a527224f2f077202deff1b1/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/399570119a527224f2f077202deff1b1/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml
+INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/198d82892790e1d88551ddd845d7dd62/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml
+		INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml
+		ADDED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml
+		INJECTED from /home/arthur/Documents/Android/partacount/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/198d82892790e1d88551ddd845d7dd62/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v13:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/e5ad3c4f6e008545756ed19422631ce4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v13:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/e5ad3c4f6e008545756ed19422631ce4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/822a350df682a1383f3eec817a4a591f/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/822a350df682a1383f3eec817a4a591f/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/7c673dd53788ffa0db82b8697317280f/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/7c673dd53788ffa0db82b8697317280f/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e604ae4d58022d0faf24e1c7b774e03e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e604ae4d58022d0faf24e1c7b774e03e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/520eb5d5ee79dd5be9b1373b555bb4d7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/520eb5d5ee79dd5be9b1373b555bb4d7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1a188a5d8c8217476cf4b4446cb6ffd3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1a188a5d8c8217476cf4b4446cb6ffd3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d125a40c22e1c06589c85d11da15896a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d125a40c22e1c06589c85d11da15896a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c654a5c15ed1eb8a5a734291ba6afbcc/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c654a5c15ed1eb8a5a734291ba6afbcc/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4b2930d1185f760aa46841e6e0f7c6c0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4b2930d1185f760aa46841e6e0f7c6c0/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/198d82892790e1d88551ddd845d7dd62/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/198d82892790e1d88551ddd845d7dd62/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/399570119a527224f2f077202deff1b1/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/399570119a527224f2f077202deff1b1/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/arthur/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/399570119a527224f2f077202deff1b1/AndroidManifest.xml:26:13-58
